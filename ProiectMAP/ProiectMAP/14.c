@@ -49,4 +49,17 @@ int main()
 
 	printf("\nMinimul de sub diagonala princiapala este: %d", Min_princiapala);
 	printf("\nMaximul de sub diagonala princapala este: %d", Max_principala);
+
+	for (i = 0; i < m; i++)
+		for (j = 0; j < n; j++)
+			if (i + j > n - 1)
+			{
+				if (a[i][j] < Min_secundara)
+					Min_secundara = a[i][j];
+				if (a[i][j] > Max_secundara)
+					Max_secundara = a[i][j];
+			}
+
+	printf("\nMinimul de sub diagonala secundara este: %d", Min_secundara);
+	printf("\nMaximul de sub diagonala secundara este: %d", Max_secundara);
 }
