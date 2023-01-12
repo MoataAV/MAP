@@ -6,5 +6,5 @@ Elementele aflate sub diagonala principala au indicele "i" mai mic decat indicel
 diagonala secundara au suma indicilor mai mare decat n-1.
 
 Pentru a rula proiectul folositi urmatoarele comenzi:
-docker pull moataav/proiectmap
-docker run -it moataav/proiectmap
+* docker pull moataav/proiectmap
+* docker run -it moataav/proiectmap
